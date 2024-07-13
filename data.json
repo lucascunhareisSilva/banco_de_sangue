@@ -1,0 +1,35 @@
+[
+  {
+    "first_name": "Fabiana Vanessa",
+    "last_name": "Márcio Almeida",
+    "data_nascimento": "25/05/2000",
+    "sexo": "Masculino",
+    "phone": "9838333476",
+    "email": "geraldo.lucas.almeida@imaxbrasil.com.br",
+    "tipo_sangue": "B-",
+    "rg": "18.178.679-5",
+    "cpf": "142.330.863-86"
+  },
+  {
+    "first_name": "Geraldo Lucas",
+    "last_name": "Márcio Almeida",
+    "data_nascimento": "25/05/2000",
+    "sexo": "Masculino",
+    "phone": "9838333476",
+    "email": "geraldo.lucas.almeida@imaxbrasil.com.br",
+    "tipo_sangue": "AB+",
+    "rg": "18.178.679-5",
+    "cpf": "142.330.863-86"
+  },
+  {
+    "first_name": "Vanessa Isabela Silveira",
+    "last_name": "Isabela Silveira",
+    "data_nascimento": "17/08/2004",
+    "sexo": "Masculino",
+    "phone": "98981244957",
+    "email": "vanessa_silveira@esplanadaviagens.com.br",
+    "tipo_sangue": "O+",
+    "rg": "21.268.093-6",
+    "cpf": "17455468040"
+  }
+]
