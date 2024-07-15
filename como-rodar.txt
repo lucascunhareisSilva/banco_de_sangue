@@ -2,3 +2,4 @@ Como rodar o sistema básico
 1) node server.js
 executa server.js primeiro.
 2)node saveToJson.js
+3)npm install express body-parser mysql cors
