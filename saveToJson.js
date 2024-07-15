@@ -17,7 +17,7 @@ fs.readFile(filePath, 'utf8', (err, fileData) => {
 
         // Itera sobre os dados e insere no MySQL
         jsonData.forEach((data) => {
-            const { first_name, last_name, data_nascimento, tipo_sangue, phone, email, rg, cpf } = data;
+            const { first_name, last_name, data_nascimento, tipo_sangue,sexo, phone, email, rg, cpf } = data;
 
             // Verifica se os dados já existem no banco de dados
             const checkSql = 'SELECT * FROM pessoal WHERE first_name = ? AND last_name = ? AND data_nascimento = ? AND tipo_sangue = ?';
@@ -29,8 +29,8 @@ fs.readFile(filePath, 'utf8', (err, fileData) => {
 
                 if (results.length === 0) {
                     // Insere na tabela pessoal
-                    const sqlPessoal = 'INSERT INTO pessoal (first_name, last_name, data_nascimento, tipo_sangue) VALUES (?, ?, ?, ?)';
-                    db.query(sqlPessoal, [first_name, last_name, data_nascimento, tipo_sangue], (err, result) => {
+                    const sqlPessoal = 'INSERT INTO pessoal (first_name, last_name, data_nascimento, tipo_sangue, sexo) VALUES (?, ?, ?, ?, ?)';
+                    db.query(sqlPessoal, [first_name, last_name, data_nascimento, tipo_sangue,sexo], (err, result) => {
                         if (err) {
                             console.error('Erro ao inserir na tabela pessoal:', err);
                             return;

@@ -1,7 +1,9 @@
 {
   "dependencies": {
     "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
     "express": "^4.19.2",
+    "expresss": "^0.0.0",
     "mysql": "^2.18.1"
   },
   "scripts": {
@@ -13,6 +15,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
-  "description": ""
+  "description": "",
+  "devDependencies": {}
 }
